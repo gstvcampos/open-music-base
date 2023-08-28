@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <title>Open Music</title>
+
+    <script defer type="module" src="./src/scripts/index.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="header__container">
+        <h1>open music</h1>
+        <button class="mode__btn">
+          <img class="img__moon" src="./src/assets/img/moon.svg" alt="moon">
+          <img class="img__sun hide" src="./src/assets/img/sun.svg" alt="sun">
+        </button>
+      </div>
+
+      <div class="filter__container">
+        <h2>Gênero Musical</h2>
+        <div class="filter__buttons">
+          <button class="filter__button" value="0">Todos</button> 
+          <button class="filter__button" value="1">Pop</button>
+          <button class="filter__button" value="2">MPB</button>
+          <button class="filter__button" value="3">Forró</button>
+          <button class="filter__button" value="4">Samba</button>
+          <button class="filter__button" value="5">Bailão</button>
+          <button class="filter__button" value="6">Rap</button>
+          <button class="filter__button" value="7">Hip-Hop</button>
+          <button class="filter__button" value="8">Rock</button>
+          <button class="filter__button" value="9">Reggae</button>
+          <button class="filter__button" value="10">Country</button>
+          <button class="filter__button" value="11">Gospel</button> 
+        </div>                          
+      </div>
+
+      <div class="range__filter">
+        <div>
+          <span>Definir preço</span>
+          <span id="idToSearch">Até R$ 240.00</span>
+        </div>
+
+        <input id="rangeInput" type="range" min="0" max="500" step="1" value="240">
+
+      </div>
+
+      <div class="albuns__container">
+        <h2>Albuns Encontrados</h2>
+        <ul class="albuns__list">
+
+        </ul>
+      </div>
+
+    </main>
+  </body>
+</html>

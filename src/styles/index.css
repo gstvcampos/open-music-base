@@ -1,0 +1,167 @@
+/* Desenvolva sua estilização aqui ... */
+
+body {
+    background-color: var(--color-grey-9);
+}
+
+.hide {
+    display: none;
+}
+
+.header__container {
+    display: flex;
+    width: 641px;
+    max-width: 100%;
+    margin: 77px auto;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: var(--font-1);
+    font-weight: 600;
+    color: var(--color-grey-1);
+}
+
+.mode__btn {
+    height: 36px;
+    width: 36px;
+    background-color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    border: none;
+    cursor: pointer;
+}
+
+.mode__btn > img {
+    height: 16px;
+    width: 18px;
+}
+
+.filter__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 30px;
+    width: 641px;
+    max-width: 100%;
+
+    color: var(--color-grey-2);
+}
+
+.filter__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 641px;
+    max-width: 100%;
+}
+
+.filter__button:hover {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+}
+
+.filter__buttons > button {
+    background-color: var(--color-grey-8);
+    color: var(--color-grey-2);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: var(--radius-1);
+    border: none;
+    padding: 8px 8px;
+    cursor: pointer;
+}
+
+.range__filter {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    width: 641px;
+    max-width: 100%;
+    margin: 60px auto;
+}
+
+.range__filter > div {
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-grey-1);
+}
+
+.range__filter > input {
+    
+}
+
+.albuns__container {
+    width: 641px;
+    max-width: 100%;
+    margin: 0 auto;
+    color: var(--color-grey-1);
+}
+
+.albuns__container > h2 {
+    font-size: 16px;
+    margin-bottom: 60px;
+    margin-top: 68px;
+}
+
+.albuns__list {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 25px;
+    width: 641px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.albuns__list > li {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-grey-8);
+    margin: 0 auto;
+    position: relative;
+}
+
+.text-3 {
+    font-size: 12px;
+    color: var(--color-grey-2);
+}
+
+.div-album {
+    display: flex;
+    gap: 20px;
+    margin: 20px 20px 20px 16px;
+}
+
+img {
+    width: 308px;
+    height: 113px;
+}
+
+.title {
+    color: var(--color-grey-1);
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.price {
+    color: var(--color-grey-1);
+    font-size: 14px;
+    margin: 27px 0 28px 16px;
+}
+
+.buy-button {
+    position: absolute;
+    bottom: 20px;
+    right: 19px;
+
+    background-color: var(--color-grey-7);
+    color: var(--color-grey-2);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: var(--radius-1);
+    border: none;
+    padding: 8px 8px;
+    cursor: pointer;
+}
+
